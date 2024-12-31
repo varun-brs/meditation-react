@@ -1,0 +1,375 @@
+:root {
+  --primary-color: #1a4b84;
+  --chathams_blue: #1a4b84;
+  --tamarillo: #991e14;
+  --yellow_sea: #fead06;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 60vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.mapboxgl-ctrl-geocoder {
+  min-width: 100% !important;
+}
+
+#menu {
+  position: absolute;
+  background: #fff;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -90px;
+  margin-left: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: teal;
+  color: #fff;
+  padding: -30px;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 32px;
+  margin-left: 15px;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+
+.services {
+  position: relative;
+}
+
+/* Header Styles
+  -------------------------------------------------- */
+
+header .bg-gradient {
+  background: rgb(216, 216, 216);
+}
+
+body {
+  background: url("../public/assets/img/BG.png");
+  background-size: cover;
+}
+
+header .navbar {
+  padding: 20px 0 0;
+}
+
+header .navbar-brand {
+  padding: 0;
+  z-index: 1;
+  width: 213px;
+  height: 150px;
+  background-color: var(--primary-color);
+  border-radius: 0;
+}
+
+header .navbar-brand img {
+  width: 56px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h3 {
+  font: normal normal 600 18px/27px Oswald;
+  color: #fff;
+}
+
+header h4 {
+  font: normal normal 600 18px/28px Oswald;
+  letter-spacing: 0.36px;
+  color: #191919;
+  text-transform: uppercase;
+}
+
+header p {
+  font: 600 12px/15px Poppins;
+  letter-spacing: 0.24px;
+  color: #191919;
+}
+
+.ReactTitle {
+  background-color: #838383;
+  height: 50px;
+  font: normal normal 600 19px/27px Oswald;
+  letter-spacing: 0.38px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.ReactTitle img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.link {
+  background-color: rgba(0, 0, 0, 0.09);
+  font: normal normal medium 12px/15px Poppins;
+  letter-spacing: 0.24px;
+  height: 40px;
+  padding: 10px 10px;
+}
+
+.link a {
+  color: #055ba6;
+}
+
+/* Sticky footer styles
+  -------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+  -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.footer-dark {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.toggle-currency {
+  font-size: 20px;
+}
+
+footer {
+  font: normal normal 600 12px/19px Oswald;
+  letter-spacing: 0.24px;
+  color: #ffffff;
+}
+
+.theme-switch {
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.theme-switch-chathams_blue {
+  background-color: var(--chathams_blue);
+}
+
+.theme-switch-chathams_blue:hover {
+  box-shadow: 2px 2px 2px var(--chathams_blue);
+}
+
+.theme-switch-tamarillo {
+  background-color: var(--tamarillo);
+}
+
+.theme-switch-tamarillo:hover {
+  box-shadow: 2px 2px 2px var(--tamarillo);
+}
+
+.theme-switch-yellow_sea {
+  background-color: var(--yellow_sea);
+}
+
+.theme-switch-yellow_sea:hover {
+  box-shadow: 2px 2px 2px var(--yellow_sea);
+}
+
+#details {
+  display: flex !important;
+  width: 100vw;
+  max-width: 100%;
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+  background: #e4e4e4;
+}
+
+#details p,
+#details h6 {
+  margin-bottom: 0;
+}
+
+.iss {
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  background-repeat: "no-repeat";
+  background-image: url("../public/assets/img/iss.png");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.time-select,
+.sound-picker {
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.time-select button,
+.sound-picker button {
+  color: white;
+  width: 30%;
+  height: 10%;
+  background: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: all 0.5s ease;
+}
+
+.sound-picker button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+  border-radius: 50%;
+}
+.sound-picker button:nth-child(1) {
+  background: #4972a1;
+}
+.sound-picker button:nth-child(2) {
+  background: #a14f49;
+}
+.sound-picker button img {
+  height: 100%;
+}
+
+.time-select button:hover {
+  background: white;
+  color: black;
+}
+
+.player-container {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.player-container svg {
+  position: absolute;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  pointer-events: none;
+}
+.player-container svg circle {
+  transition: all 0.2s ease-in-out;
+}
+.time-display {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  bottom: 5%;
+}
+
+video {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -10;
+}
+
+.play {
+  cursor: pointer;
+}
